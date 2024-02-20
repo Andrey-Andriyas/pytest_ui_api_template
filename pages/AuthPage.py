@@ -3,7 +3,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 class AuthPage:
     def __init__(self, driver: WebDriver) -> None:
-        self.__url = "https://trello.com/login?returnUrl=%2Fu%2Fandrew_011280%2Fboards"
+        self.__url = "https://trello.com/login"
         self.__driver = driver
 
     def go(self):
