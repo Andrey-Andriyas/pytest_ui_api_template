@@ -5,7 +5,7 @@
 ### Шаги:
 1. Склонировать проект `git.clone https://github.com/Andrey-Andriyas/pytest_ui_api_template.git`
 2. Установить все зависимости
-3. Запустить тесты `pytest`
+3. Запустить тесты `pytest` 
 
 ### Стек:
 - pytest
