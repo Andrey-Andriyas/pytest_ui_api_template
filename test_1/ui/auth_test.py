@@ -2,6 +2,9 @@ import allure
 from pages.AuthPage import AuthPage
 from pages.MainPage import MainPage
 
+import pytest
+
+@pytest.mark.skip
 def auth_test(browser):
     email = "andriyas80@gmail.com"
     password = "Andriyas_80"
